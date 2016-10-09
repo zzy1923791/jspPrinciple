@@ -22,10 +22,12 @@ Date:
 	for(int i = 0 ; i < 7; i++)
 	{
 %>
-<font size='<% out.println(i); %>'>
+<label style="font-size: <% out.println(i); %>">
 	·è¿ñJavaÑµÁ·Óª(Wild Java Camp)
-</font>
+</label>
 <br/>
-<%}%>
+<%
+	}
+%>
 </body>
 </html>
